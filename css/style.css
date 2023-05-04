@@ -21,7 +21,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    padding: 0px 50px;
     box-sizing: border-box;
 }
 /* Navigation Section*/
@@ -179,7 +179,7 @@ font-size: 1rem;
 }
 
 .section-title {
-    margin: 0;
+    margin: 0px;
     font-size: 22px;
 }
 
@@ -236,9 +236,9 @@ font-size: 1rem;
     height:257px;
 }
 .hebergements .card:hover{
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
-    0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
-    0 16px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
+    0 4px 4px rgba(0, 0, 0, 0.1), 0px 8px 8px rgba(0, 0, 0, 0.1),
+    0px 16px 16px rgba(0, 0, 0, 0.1);
     color:var(--main-color);
     border-radius: 15px;    
  }
@@ -295,9 +295,9 @@ font-size: 1rem;
 }
 
 .populaires-cards .card:hover{
-        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
-        0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
-        0 16px 16px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.1),
+        0px 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
+        0px 16px 16px rgba(0, 0, 0, 0.1);
         color:var(--main-color);
         border-radius: 15px;    
      }
@@ -324,7 +324,7 @@ font-size: 1rem;
 }
 
 .populaires-cards .card-subtitle {
-    margin: 0;
+    margin: 0px;
 }
 
 .populaires-cards .card-rating {
@@ -668,7 +668,7 @@ font-size: 1rem;
 }
 @media(width:375px){
     .main-container{
-        padding:0 25px;
+        padding:0px 25px;
         margin-left:5px;
     }
     nav {
@@ -698,7 +698,7 @@ font-size: 1rem;
         margin-left: 20px;
         height: auto;
         max-width: 1440px;
-        padding: 0 50px;
+        padding: 0px 50px;
         box-sizing: border-box;
     }
 }
