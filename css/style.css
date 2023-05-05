@@ -335,14 +335,14 @@ font-size: 1rem;
     font-size: medium;
  }
 /*Activites*/
-.activitesContainer{
+.activity-Container{
     display:flex;    
     justify-content: space-between;
     width:100%;
 }
 
 
-.cardActivites{
+.card-Activites{
     width:33%;
     height:auto;
     border-radius: 20px;
@@ -352,37 +352,37 @@ font-size: 1rem;
     margin:0px 15px;
 
 }
-.cardActivites >a{
+.card-Activites >a{
     color:#000;
     text-decoration: none;
 }
-.cardActivites >a >h3{
+.card-Activites >a >h3{
     font-size:16px;
     margin-left:15px;
 }
-.cardActivites:hover{
+.card-Activites:hover{
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
     0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
     0 16px 16px rgba(0, 0, 0, 0.1);
   color: var(--main-color);
 }
-.cardActivites a{
+.card-Activites a{
     height:23px;
     padding:0px;
 }
 .cardActivites a:hover{
     color: var(--main-color);  
 }
-.cardActivites a >h4{
+.card-Activites a >h4{
     margin-left:19px;
     font-size: 16px;
 }
-.activitesTitle{
+.activity-Title{
  margin-top:65px;
  margin-bottom:30px;
  margin-left: 20px;
 }
-.activityImg{
+.activity-Img{
     width:100%;
     height:380px;
     max-height:391px;
@@ -399,16 +399,16 @@ font-size: 1rem;
     padding: 20px;
     width:97%;
 }
-.cardFooter {
+.card-Footer {
     padding: 1rem;
     line-height: 2;
     margin-left: 15px;
     width:33%;  
 }
-.cardFooter  ul{
+.card-Footer  ul{
     padding-inline-start:0px !important;  
 }
-.cardFooter ul li{
+.card-Footer ul li{
     list-style: none;
 }
 
@@ -423,7 +423,7 @@ font-size: 1rem;
     .liBtn {
         width:19%;
     }
-    .activityImg {
+    .activity-Img {
         width: 100%;
         height: 207px;
     }  
@@ -496,11 +496,11 @@ font-size: 1rem;
     .card-title {
         font-size: 14px;
     }
-    .activityImg {
+    .activity-Img {
         width: 100%;
         height: 170px;
     }
-    .cardActivites {
+    .card-Activites {
         width: 36%;
         margin: 0px 6px;
     }
@@ -566,14 +566,14 @@ font-size: 1rem;
          width:205px;
 
     } 
-    .activitesContainer {
+    .activity-Container {
         flex-direction: column;
     }
-    .cardActivites {
+    .card-Activites {
          width:auto;
          margin-bottom:20px;
     }
-    .activityImg {
+    .activity-Img {
         width: 100%;
         height: 250px;
     }
@@ -582,17 +582,17 @@ font-size: 1rem;
        width:100%;
        padding:0px;
     }
-    .cardFooter {
+    .card-Footer {
         width:100%;
     }
-    .btnSpanRecherche{
+    .btn-Span-Recherche{
         display:none;
     }
-    .searchIcon{
+    .search-Icon{
         display:block;
         
     }
-    .searchIcon >i{
+    .search-Icon >i{
       color:#fff;
     }
     .btn_recherche {
@@ -620,7 +620,7 @@ font-size: 1rem;
 .card-title {
     font-size: 14px;
 }
-.hebergementTitle{
+.hebergement-Title{
     font-size: medium;
 }
 }
@@ -650,16 +650,16 @@ font-size: 1rem;
         margin-right: 0px;
     }
     
-    .activityImg {
+    .activity-Img {
         height: 250px;
     }
-    .btnSpanRecherche{
+    .btn-Span-Recherche{
         display:none;
     }
-    .searchIcon{
+    .search-Icon{
         display:block;
     }
-    .searchIcon .fas{
+    .search-Icon .fas{
         color:#f2f2f2;
     }
     .btn_recherche {
