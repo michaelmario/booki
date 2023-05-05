@@ -8,7 +8,16 @@
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 }
+p{
+    font-size:16px;
+}
 
+form{
+    font-size:18px;
+}
+h2{
+    font-size:17px;
+}
 .fa-solid {
     color: var(--main-color);
 }
@@ -61,7 +70,7 @@ nav >ul >li a:hover{
 /*section title*/
 .section-title h1{
     margin-top:23px;
-    font-size: 1.375em;;
+    font-size: 22px;
 }
 .search-input {
     display: flex;
@@ -110,6 +119,11 @@ nav >ul >li a:hover{
     justify-content: flex-start;
     margin:30px 0px;
    }
+   .filterContainer h2{
+      font-size:18px;
+      font-weight:bold;
+      padding-top:14px;
+   }
 .firtsBtn{
     display:flex;
 }
@@ -127,6 +141,8 @@ nav >ul >li a:hover{
 .liBtn >p{
 margin-top:3px;
 padding:1px;
+font-size: 12px;
+font-weight: bold;
 }
 .liBtn >p > i{
     padding-top:5px;
@@ -153,13 +169,16 @@ i{
 }
 .fa-info{
     border:1px solid #d9d9d9;
-    width:24px;
-    height:24px;
+    width:19px;
+    height:18px;
     padding:5px;
     margin-right:5px;
 }
-p{
-font-size: 1rem;
+.information p{
+    font-size:16px;
+}
+.information p > i{
+    font-size:14px;
 }
 .round-btn{
     background-color: #fff;
@@ -222,6 +241,9 @@ font-size: 1rem;
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    }
+    .hebergement-Title{
+        font-size:22px;
     }
     .hebergement_flex{
       display:flex;
@@ -380,6 +402,9 @@ font-size: 1rem;
  margin-top:65px;
  margin-bottom:30px;
  margin-left: 20px;
+}
+.activity-Title h2{
+    font-size: 22px;
 }
 .activity-Img{
     width:100%;
