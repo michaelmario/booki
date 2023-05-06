@@ -30,7 +30,7 @@ body {
     box-sizing: border-box;
 }
 /* Navigation Section*/
-header {
+.header {
     width:98%;
     height:50px;
     margin-bottom: 50px;
@@ -39,7 +39,7 @@ header {
     justify-content: space-between;
    
 }
-header img{
+.header>a>img{
     width:61.9px;
     height:19px;
     padding-top: 20px;
@@ -72,9 +72,7 @@ nav >ul >li a:hover{
     display: flex;
     margin-top: 20px;
 }
-.search-input >input{
-    font-weight: bolder;
-    }
+
 .fa-map-marker-alt {
     width:50px;
     height: 49px;
@@ -91,6 +89,10 @@ nav >ul >li a:hover{
     text-align: center;
     color:#000;
     font-size:18px;
+    font-weight: bolder;
+}
+.search::placeholder{
+    color:#000;
 }
 .btn_recherche {
     display:flex;
