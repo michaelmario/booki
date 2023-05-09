@@ -649,16 +649,11 @@ i{
    .liBtn {
      width:61%; 
 }
-.liBtn >h3 {   
-    margin-top: 12px;    
-    padding-right:5px;
-    font-size: smaller; 
-}
 .card-title {
     font-size: 14px;
 }
 .hebergement-Title{
-    font-size: medium;
+    font-size:16px;
 }
 }
 
